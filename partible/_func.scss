@@ -1,0 +1,11 @@
+@mixin display($fd,$jc,$ai) {
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+}
+@mixin img($bp,$bs) {
+    background-repeat: no-repeat;
+    background-position: $bp;
+    background-size: $bs;
+}
